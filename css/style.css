@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.columna {
+    width: 50%;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+iframe {
+    border-radius: 8px;
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+body {
+    font-family: Georgia, serif;
+}
+
+nav ul li a {
+    color: gray; /* Color inicial de los enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Transición suave */
+}
+
+nav ul li a:hover {
+    color: white; /* Color cuando se pasa el puntero */
+}
+
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.info h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.redes a {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+.perfil img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Evita que la imagen se deforme */
+    border-radius: 50%; /* Hace la imagen circular */
+    border: 1px solid black; /* Mismo grosor y color que la tabla */
+}
